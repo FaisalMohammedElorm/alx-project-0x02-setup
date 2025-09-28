@@ -24,7 +24,7 @@ export default function PostModal({ isOpen, onClose, onAddPost }: PostModalProps
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-      <div className="bg-white rounded-lg shadow-lg p-6 w-96">
+      <div className="bg-orange-500 rounded-lg shadow-lg p-6 w-96">
         <h2 className="text-xl font-bold mb-4">Create a New Post</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
